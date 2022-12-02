@@ -1,0 +1,21 @@
+.C404 {
+    background-color: #14AA84;
+    height: 92.5vh;
+    color: white;
+    img {
+        width: 400px;
+        height: 300px;
+    }
+    p {
+        margin: 0 20%;
+    }
+    button {
+        font-size: 2em;
+        color: white;
+        text-shadow: 0 0 10px;
+        transition: 1s linear;
+        &:hover {
+            transform: translateY(-10px);
+        }
+    }
+}

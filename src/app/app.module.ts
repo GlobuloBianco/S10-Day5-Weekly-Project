@@ -12,6 +12,7 @@ import { EvidenziaDirective } from './components/directives/evidenzia.directive'
 import { MaiuscoloPipe } from './pipes/maiuscolo.pipe';
 import { DettagliPostsComponent } from './components/dettagli-posts/dettagli-posts.component';
 import { UsersDettagliComponent } from './components/users-dettagli/users-dettagli.component';
+import { Custom404Component } from './components/custom404/custom404.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { UsersDettagliComponent } from './components/users-dettagli/users-dettag
     EvidenziaDirective,
     MaiuscoloPipe,
     DettagliPostsComponent,
-    UsersDettagliComponent
+    UsersDettagliComponent,
+    Custom404Component
   ],
   imports: [
     BrowserModule,

@@ -6,6 +6,7 @@ import { InactivePostsComponent } from './components/inactive-posts/inactive-pos
 import { UsersComponent } from './components/users/users.component';
 import { DettagliPostsComponent } from './components/dettagli-posts/dettagli-posts.component';
 import { UsersDettagliComponent } from './components/users-dettagli/users-dettagli.component';
+import { Custom404Component } from './components/custom404/custom404.component';
 
 const routes: Routes = [
     {
@@ -46,7 +47,7 @@ const routes: Routes = [
     },
     {
         path: '**',
-        component: HomeComponent
+        component: Custom404Component
     }
 ];
 
