@@ -15,12 +15,12 @@ const routes: Routes = [
     {
         path: "posts/active",
         component: ActivePostsComponent,
-        children: [
+        /*children: [
             {
                 path: ":id",
                 component: DettagliPostsComponent
             }
-        ]
+        ]*/
     },
     {
         path: "posts/inactive",
@@ -30,10 +30,10 @@ const routes: Routes = [
         path: "posts/inactive/:id",
         component: DettagliPostsComponent
     },
-    /*{
+    {
         path: "posts/active/:id",
         component: DettagliPostsComponent
-    },*/
+    },
     {
         path: "users",
         component: UsersComponent,

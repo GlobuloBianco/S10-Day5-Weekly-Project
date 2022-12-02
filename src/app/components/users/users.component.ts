@@ -14,21 +14,14 @@ export class UsersComponent implements OnInit {
     constructor() {
         getUsers().then((users) => {
             this.users = users;
-
             console.log(this.users);
         });
     }
 
-    ngOnInit(): void {
-        this.ids = Number(window.location.href.at(-1)) - 1;
-    }
+    ngOnInit(): void {}
 
-    selezionato = (el:any) => {
-        let lista: any = document.getElementById(el)
-        lista.classList.add("selezionato");
-        if(el != this.users[el - 1].id) {
-            lista.classList.remove("selezionato");
-        };
+    selezionato = (i: number) => {
+        this.s = i;
     }
 
 
