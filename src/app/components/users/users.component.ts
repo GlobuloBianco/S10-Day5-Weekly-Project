@@ -10,6 +10,7 @@ import { User } from 'src/app/models/user.interface';
 export class UsersComponent implements OnInit {
     users!: User[];
     ids!: number;
+    s: number = -1;  //selector
 
     constructor() {
         getUsers().then((users) => {
