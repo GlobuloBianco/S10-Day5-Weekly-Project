@@ -13,7 +13,7 @@ export class UsersComponent implements OnInit {
 
     constructor() {
         getUsers().then((users) => {
-            this.users = users.utenti;
+            this.users = users;
 
             console.log(this.users);
         });

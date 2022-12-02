@@ -11,7 +11,6 @@ import { UsersComponent } from './components/users/users.component';
 import { EvidenziaDirective } from './components/directives/evidenzia.directive';
 import { MaiuscoloPipe } from './pipes/maiuscolo.pipe';
 import { DettagliPostsComponent } from './components/dettagli-posts/dettagli-posts.component';
-import { AntiVirgolettePipe } from './pipes/anti-virgolette.pipe';
 import { UsersDettagliComponent } from './components/users-dettagli/users-dettagli.component';
 
 @NgModule({
@@ -25,7 +24,6 @@ import { UsersDettagliComponent } from './components/users-dettagli/users-dettag
     EvidenziaDirective,
     MaiuscoloPipe,
     DettagliPostsComponent,
-    AntiVirgolettePipe,
     UsersDettagliComponent
   ],
   imports: [
