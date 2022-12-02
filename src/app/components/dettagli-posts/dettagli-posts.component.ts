@@ -35,7 +35,7 @@ export class DettagliPostsComponent implements OnInit {
                 this.author = JSON.stringify(posts[this.ids].author);
             });
         })
-        //----//
+        //--find per trovare l'id--//
 
     }
 

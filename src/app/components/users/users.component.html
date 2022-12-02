@@ -1,6 +1,6 @@
 <div class="container mt-5">
     <ul class="list-group">
-        <li [routerLink]="[user.id]" routerLink="active" *ngFor="let user of users" id="{{user.id}}" class="list-group-item" (click)="selezionato(user.id)">
+        <li [routerLink]="[user.id]" routerLink="active" *ngFor="let user of users; let i = index" id="{{user.id}}" class="list-group-item" (click)="sel(i)" [ngClass]="{'selezionato': s == i}">
             {{ user.nome }}
         </li>
     </ul>
